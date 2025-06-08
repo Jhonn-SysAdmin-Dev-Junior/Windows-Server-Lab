@@ -6,11 +6,11 @@ Este proyecto demuestra cómo implementar políticas de auditoría dentro de un 
 
 ## 🎯 Objetivo
 
-Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO) específicas, permitiendo registrar eventos relevantes para el control de seguridad y la trazabilidad en el dominio.
+Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO) específicas, permitiendo registrar eventos relevantes para el control de seguridad en el  dominio.
 
 ---
 
-## 🧩 Auditorías por UO
+## 🧩 Auditorías por Unidad Organizativa
 
 | Unidad Organizativa | Auditorías aplicadas |
 |---------------------|----------------------|
