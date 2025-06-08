@@ -44,11 +44,11 @@ Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO
 
 ## 🖼️ Capturas de configuración y resultados
 
-### 📌 Configuración de GPO
-<img src="img/gpo-configuracion.png" width="600">
-
 ### 👥 Usuarios en Active Directory
-<img src="img/ad-grupos.png" width="600">
+<img src="imgs/ad-grupos.png" width="600">
+
+### 📌 Configuración de GPO
+<img src="imgs/gpo-configuracion.png" width="600">
 
 ### 📋 Evento registrado tras cambio de contraseña
 <img src="img/visor-eventos.png" width="600">
