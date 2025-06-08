@@ -52,7 +52,7 @@ Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO
 <img src="imgs/cambio-contraseña.png" width="600">
 
 ### 📋 Evento registrado tras cambio de contraseña
-<img src="imgs/visor-eventos.png" width="600">
+<img src="imgs/visor-eventos2.png" width="600">
 
 ---
 
