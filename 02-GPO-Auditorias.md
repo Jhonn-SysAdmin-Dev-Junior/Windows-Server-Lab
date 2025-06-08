@@ -60,5 +60,7 @@ Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO
 
 Esta práctica permitió configurar auditorías detalladas en un entorno de Active Directory, asignando políticas de seguridad específicas a cada unidad organizativa. A través del visor de eventos, se verificó que los sucesos como inicios de sesión, cambios de cuentas y accesos a objetos eran correctamente registrados.
 
+## ¿Quieres ver la memoria tecnica completa? Aqui está el link https://drive.google.com/file/d/1udQqrMX-SBk-Ce1qysCr_a6Z9HGydLcl/view?usp=sharing
+
 
 
