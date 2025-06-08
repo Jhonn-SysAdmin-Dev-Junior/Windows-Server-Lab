@@ -2,8 +2,6 @@
 
 Este proyecto demuestra cómo implementar políticas de auditoría dentro de un entorno de Active Directory para monitorizar eventos críticos como inicios de sesión, cambios de cuenta, accesos a objetos y uso de permisos.
 
-🔧 Trabajo realizado como parte de mi formación en el Ciclo Superior de Administración de Sistemas Informáticos en Red (ASIR).
-
 ---
 
 ## 🎯 Objetivo
@@ -50,11 +48,17 @@ Aplicar auditorías por unidad organizativa (UO) usando directivas de grupo (GPO
 ### 📌 Configuración de GPO
 <img src="imgs/gpo-configuracion.png" width="600">
 
+## Cambio de contraseña
+<img src="imgs/cambio-contraseña.png" width="600">
+
 ### 📋 Evento registrado tras cambio de contraseña
-<img src="img/visor-eventos.png" width="600">
+<img src="imgs/visor-eventos.png" width="600">
 
 ---
 
-## 📁 Estructura del repositorio
+## ✅ Conclusión
+
+Esta práctica permitió configurar auditorías detalladas en un entorno de Active Directory, asignando políticas de seguridad específicas a cada unidad organizativa. A través del visor de eventos, se verificó que los sucesos como inicios de sesión, cambios de cuentas y accesos a objetos eran correctamente registrados.
+
 
 
