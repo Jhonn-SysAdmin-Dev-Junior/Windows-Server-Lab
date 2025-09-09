@@ -13,16 +13,22 @@ Interfaz WAN: salida a Internet mediante NAT.
 <img src="imgs/sophoswan.png">
 
 Interfaz LAN: red interna 10.10.10.0/24.
+
 <img src="imgs/sophoswan.png">
+
 Funciona como gateway predeterminado para toda la red.
 
 
 #### Windows Server (10.10.10.2)
 
 Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
+
 <img src="imgs/sophoswan.png">
+
 DNS: resolución de nombres internos y reenvío a Internet.
+
 <img src="imgs/sophoswan.png">
+
 DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
 <img src="imgs/sophoswan.png">
 File Server: carpetas compartidas con permisos por departamento.
