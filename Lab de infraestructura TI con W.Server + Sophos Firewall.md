@@ -1,9 +1,7 @@
 🌐 Arquitectura de Red del Laboratorio TI
 
 La infraestructura implementada se compone de un servidor Windows Server 2019/2022, un firewall virtualizado y varios clientes Windows, todos integrados en un dominio corporativo.
-
 ---
-
 🔹 Componentes principales
 
 Firewall (10.10.10.1)
@@ -35,7 +33,7 @@ Acceden a recursos de red (carpetas compartidas, impresoras, políticas de grupo
 Internet
 
 Acceso disponible para todos los clientes a través del firewall.
-
+---
 🔹 Flujo de comunicación
 
 Los clientes reciben su configuración IP vía DHCP del Windows Server.
@@ -47,7 +45,7 @@ Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve
 El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
 
 Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
-
+---
 🔹 Diagrama de Red
       [ Internet ]
            |
@@ -60,10 +58,7 @@ Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servi
   DC/DNS/DHCP       10.10.10.101+
   File Server
   (10.10.10.2)
-
-
-(En la carpeta /diagrams de este repositorio se incluye la versión gráfica del diagrama de red con íconos profesionales.)
-
+---
 ✅ Estado actual del laboratorio
 
 Dominio corporativo en funcionamiento.
