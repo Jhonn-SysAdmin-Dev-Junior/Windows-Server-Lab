@@ -4,7 +4,7 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 
 ---
 
-### 🔹 Componentes principales
+## 🔹 Componentes principales
 
 Firewall (10.10.10.1)
 
@@ -15,7 +15,7 @@ Interfaz LAN: red interna 10.10.10.0/24.
 Funciona como gateway predeterminado para toda la red.
 
 
-# Windows Server (10.10.10.2)
+### Windows Server (10.10.10.2)
 
 Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
 
@@ -39,7 +39,7 @@ Acceso disponible para todos los clientes a través del firewall.
 
 ---
 
-###🔹 Flujo de comunicación
+##🔹 Flujo de comunicación
 
 Los clientes reciben su configuración IP vía DHCP del Windows Server.
 
@@ -53,7 +53,7 @@ Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servi
 
 ---
 
-###🔹 Diagrama de Red
+##🔹 Diagrama de Red
       [ Internet ]
            |
       [ Firewall ]
