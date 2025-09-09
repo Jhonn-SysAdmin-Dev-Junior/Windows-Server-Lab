@@ -35,7 +35,9 @@ Acceden a recursos de red (carpetas compartidas, impresoras, políticas de grupo
 Internet
 
 Acceso disponible para todos los clientes a través del firewall.
+
 ---
+
 🔹 Flujo de comunicación
 
 Los clientes reciben su configuración IP vía DHCP del Windows Server.
@@ -47,7 +49,9 @@ Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve
 El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
 
 Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
+
 ---
+
 🔹 Diagrama de Red
       [ Internet ]
            |
@@ -55,12 +59,15 @@ Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servi
        (10.10.10.1)
            |
     -----------------
+    
     |               |
 [ Windows Server ] [ Clientes ]
   DC/DNS/DHCP       10.10.10.101+
   File Server
   (10.10.10.2)
+  
 ---
+
 ✅ Estado actual del laboratorio
 
 Dominio corporativo en funcionamiento.
