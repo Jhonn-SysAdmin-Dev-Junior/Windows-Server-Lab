@@ -9,30 +9,30 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 #### Firewall (10.10.10.1)
 
 Interfaz WAN: salida a Internet mediante NAT.
-
+<img src="imgs/sophoswan.png">
 Interfaz LAN: red interna 10.10.10.0/24.
-
+<img src="imgs/sophoswan.png">
 Funciona como gateway predeterminado para toda la red.
 
 
 #### Windows Server (10.10.10.2)
 
 Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
-
+<img src="imgs/sophoswan.png">
 DNS: resolución de nombres internos y reenvío a Internet.
-
+<img src="imgs/sophoswan.png">
 DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
-
+<img src="imgs/sophoswan.png">
 File Server: carpetas compartidas con permisos por departamento.
-
+<img src="imgs/sophoswan.png">
 Clientes Windows (10.10.10.101, 10.10.10.102, …)
-
+<img src="imgs/sophoswan.png">
 Se unen al dominio corporativo.
-
+<img src="imgs/sophoswan.png">
 Obtienen su configuración (IP, Gateway, DNS) desde el servidor DHCP.
-
+<img src="imgs/sophoswan.png">
 Acceden a recursos de red (carpetas compartidas, impresoras, políticas de grupo).
-
+<img src="imgs/sophoswan.png">
 Internet
 
 Acceso disponible para todos los clientes a través del firewall.
@@ -42,32 +42,19 @@ Acceso disponible para todos los clientes a través del firewall.
 ##🔹 Flujo de comunicación
 
 Los clientes reciben su configuración IP vía DHCP del Windows Server.
-
+<img src="imgs/sophoswan.png">
 El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
-
+<img src="imgs/sophoswan.png">
 Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve nombres internos y reenvía las externas a Internet.
-
+<img src="imgs/sophoswan.png">
 El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
-
+<img src="imgs/sophoswan.png">
 Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
-
+<img src="imgs/sophoswan.png">
 ---
 
 ##🔹 Diagrama de Red
-      [ Internet ]
-           |
-      [ Firewall ]
-       (10.10.10.1)
-           |
-    -----------------
-    
-    |               |
-[ Windows Server ] [ Clientes ]
-  DC/DNS/DHCP       10.10.10.101+
-  File Server
-  (10.10.10.2)
-  
----
+   
 
 ##✅ Estado actual del laboratorio
 
