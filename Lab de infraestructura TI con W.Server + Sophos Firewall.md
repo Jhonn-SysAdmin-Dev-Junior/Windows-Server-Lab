@@ -4,7 +4,7 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 
 
 
-## 🔹 Componentes principales
+### 🔹 Componentes principales
 
 Firewall (10.10.10.1)
 
