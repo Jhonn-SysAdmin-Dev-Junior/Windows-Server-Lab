@@ -1,7 +1,9 @@
 🌐 Arquitectura de Red del Laboratorio TI
 
 La infraestructura implementada se compone de un servidor Windows Server 2019/2022, un firewall virtualizado y varios clientes Windows, todos integrados en un dominio corporativo.
+
 ---
+
 🔹 Componentes principales
 
 Firewall (10.10.10.1)
