@@ -14,7 +14,6 @@ Interfaz LAN: red interna 10.10.10.0/24.
 
 Funciona como gateway predeterminado para toda la red.
 
---
 
 ## Windows Server (10.10.10.2)
 
