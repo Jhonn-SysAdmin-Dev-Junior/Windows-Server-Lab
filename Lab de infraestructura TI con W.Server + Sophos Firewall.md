@@ -6,7 +6,7 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 
 ### 🔹 Componentes principales
 
-###Firewall (10.10.10.1)
+### Firewall (10.10.10.1)
 
 Interfaz WAN: salida a Internet mediante NAT.
 
