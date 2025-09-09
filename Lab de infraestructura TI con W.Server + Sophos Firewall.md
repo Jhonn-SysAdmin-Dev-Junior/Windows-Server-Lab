@@ -15,7 +15,7 @@ Interfaz LAN: red interna 10.10.10.0/24.
 Funciona como gateway predeterminado para toda la red.
 
 
-### Windows Server (10.10.10.2)
+#### Windows Server (10.10.10.2)
 
 Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
 
