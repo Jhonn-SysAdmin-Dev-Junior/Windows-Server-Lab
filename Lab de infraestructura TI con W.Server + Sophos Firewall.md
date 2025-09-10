@@ -14,7 +14,7 @@ Interfaz WAN: salida a Internet mediante NAT.
 
 Interfaz LAN: red interna 10.10.10.0/24.
 
-<img src="imgs/sophoswan.png">
+<img src="imgs/sophoslan.png">
 
 Funciona como gateway predeterminado para toda la red.
 
