@@ -28,7 +28,9 @@ Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con
 <img src="imgs/dns.png">
 
 DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
+
 <img src="imgs/dhcp.png">
+
 File Server: carpetas compartidas con permisos por departamento.
 <img src="imgs/sophoswan.png">
 Clientes Windows (10.10.10.101, 10.10.10.102, …)
