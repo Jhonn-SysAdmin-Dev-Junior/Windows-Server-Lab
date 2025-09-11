@@ -33,7 +33,7 @@ DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.
 
 File Server: carpetas compartidas con permisos por departamento.
 
-<img src="imgs/compartida_server.png">
+<img src="imgs/compartida_servidor.png">
 
 <img src="imgs/compartida_cliente.png">
 
