@@ -32,7 +32,11 @@ DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.
 <img src="imgs/dhcp.png">
 
 File Server: carpetas compartidas con permisos por departamento.
-<img src="imgs/sophoswan.png">
+
+<img src="imgs/compartida_server.png">
+
+<img src="imgs/compartida_cliente.png">
+
 Clientes Windows (10.10.10.101, 10.10.10.102, …)
 <img src="imgs/sophoswan.png">
 Se unen al dominio corporativo.
