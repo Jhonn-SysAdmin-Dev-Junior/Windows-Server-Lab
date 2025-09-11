@@ -35,7 +35,7 @@ File Server: carpetas compartidas con permisos por departamento.
 
 <img src="imgs/compartida_servidor.png">
 
-<img src="imgs/compartida_cliente.png">
+<img src="imgs/COMPARTIDA_NANY.png">
 
 Clientes Windows (10.10.10.101, 10.10.10.102, …)
 <img src="imgs/sophoswan.png">
