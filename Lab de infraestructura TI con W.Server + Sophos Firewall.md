@@ -38,13 +38,21 @@ File Server: carpetas compartidas con permisos por departamento.
 <img src="imgs/COMPARTIDA_NANY.png">
 
 Clientes Windows (10.10.10.101, 10.10.10.102, …)
+
 <img src="imgs/sophoswan.png">
+
 Se unen al dominio corporativo.
+
 <img src="imgs/sophoswan.png">
+
 Obtienen su configuración (IP, Gateway, DNS) desde el servidor DHCP.
+
 <img src="imgs/sophoswan.png">
+
 Acceden a recursos de red (carpetas compartidas, impresoras, políticas de grupo).
+
 <img src="imgs/sophoswan.png">
+
 Internet
 
 Acceso disponible para todos los clientes a través del firewall.
