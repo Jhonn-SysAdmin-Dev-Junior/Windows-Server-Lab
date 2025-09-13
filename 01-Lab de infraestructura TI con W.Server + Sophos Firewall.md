@@ -23,6 +23,16 @@ Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
 <img src="imgs/controlador de dominio.png">
 
 ## DNS: 
+Para la correcta configuración del DNS es necesario:<br>
+1. instalar Active Directory Domain Services en el servidor.<br>
+2. Promover el servidor a controlador de dominio (en este caso AKEY.domain)<br>
+
+<img src="imgs/dns2.png">
+
+Una vez hecho esto, se debe unir el equipo cliente al dominio.<br>
+
+<img src="imgs/cliente.png">
+
 resolución de nombres internos y reenvío a Internet.<br>
 Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con el comando nslookup + Nombre del sevidor  desde un equipo cliente. 
 
