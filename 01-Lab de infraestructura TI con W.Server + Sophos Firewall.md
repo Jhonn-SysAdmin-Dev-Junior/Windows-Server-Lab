@@ -1,6 +1,6 @@
 ## 🌐 Arquitectura de Red del Laboratorio TI
 
-La infraestructura implementada se compone de un servidor Windows Server 2019/2022, un firewall virtualizado y varios clientes Windows, todos integrados en un dominio corporativo.
+La infraestructura que he implementado se compone de un servidor Windows Server 2019, un firewall virtualizado y varios clientes Windows, todos integrados en un dominio corporativo.
 
 
 
@@ -11,12 +11,6 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 Interfaz WAN: salida a Internet mediante NAT.
 
 <img src="imgs/sophoswan.png">
-
-<div style="overflow-x:auto; white-space:nowrap;">
-  <img src="imgs/sophoslan.png" width="800" style="display:inline-block; margin-right:10px;" />
-  <img src="imgs/sophoslan.png" width="800" style="display:inline-block; margin-right:10px;" />
-  <img src="imgs/sophoslan.png" width="800" style="display:inline-block; margin-right:10px;" />
-</div>
 
 Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada para toda la red)
 
