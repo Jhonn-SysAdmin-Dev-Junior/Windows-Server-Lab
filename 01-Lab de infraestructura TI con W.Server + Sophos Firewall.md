@@ -12,10 +12,10 @@ Interfaz WAN: salida a Internet mediante NAT.
 
 <img src="imgs/sophoswan.png">
 
-<div style="display: flex; overflow-x: auto; gap: 10px;">
-  <img src="imgs/sophoswan.png" width="500" />
-  <img src="imgs/sophoswan.png" width="500" />
-  <img src="imgs/sophoswan.png" width="500" />
+<div style="overflow-x:auto; white-space:nowrap;">
+  <img src="imgs/sophoslan.png" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="imgs/sophoslan.png" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="imgs/sophoslan.png" width="300" style="display:inline-block; margin-right:10px;" />
 </div>
 
 Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada para toda la red)
