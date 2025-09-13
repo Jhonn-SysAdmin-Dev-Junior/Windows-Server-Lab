@@ -9,9 +9,8 @@ La infraestructura implementada se compone de un servidor Windows Server 2019/20
 #### Firewall (10.10.10.1)
 
 Interfaz WAN: salida a Internet mediante NAT.
-[![Slide 1](imgs/dhcp.png)](imgs/sophoswan.png)
-[![Slide 2](imgs/sophoslan.png)](ruta/slide3.png)
-[![Slide 3](ruta/slide3.png)](ruta/slide1.png)
+
+<img src="imgs/sophoswan.png">
 
 Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada para toda la red)
 
