@@ -6,7 +6,7 @@ La infraestructura que he implementado se compone de un servidor Windows Server 
 
 ### 🔹 Componentes principales
 
-#### Firewall (10.10.10.1)
+## Firewall (10.10.10.1)
 
 Interfaz WAN: salida a Internet mediante NAT.
 
@@ -16,7 +16,7 @@ Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada pa
 
 <img src="imgs/sophoslan.png">
 
-#### Windows Server (10.10.10.2)
+## Windows Server (10.10.10.2)
 
 Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
 
