@@ -24,7 +24,7 @@ Controlador de Dominio (AD DS): gestión centralizada de usuarios y equipos.
 
 ## DNS: 
 resolución de nombres internos y reenvío a Internet.<br>
-Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con el comando PING + Nombre del sevidor  desde un equipo cliente. 
+Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con el comando nslookup + Nombre del sevidor  desde un equipo cliente. 
 
 <img src="imgs/dns.png">
 
