@@ -33,8 +33,7 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.<br>
 
 <img src="imgs/cliente.png" height="400">
 
-resolución de nombres internos y reenvío a Internet.<br>
-Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con el comando nslookup + Nombre del sevidor  desde un equipo cliente. 
+Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
 
 <img src="imgs/dns.png">
 
