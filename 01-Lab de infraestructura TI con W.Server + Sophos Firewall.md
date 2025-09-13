@@ -31,7 +31,7 @@ Para la correcta configuración del DNS es necesario:<br>
 
 Una vez hecho esto, se debe unir el equipo cliente al dominio.<br>
 
-<img src="imgs/cliente.png">
+<img src="imgs/cliente.png" heigth="400">
 
 resolución de nombres internos y reenvío a Internet.<br>
 Para comprobar que el servicio DNS esta correctamente configurado lo hacemos con el comando nslookup + Nombre del sevidor  desde un equipo cliente. 
