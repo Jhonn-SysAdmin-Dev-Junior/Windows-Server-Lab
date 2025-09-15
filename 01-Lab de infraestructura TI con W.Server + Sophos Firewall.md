@@ -44,7 +44,7 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.
    
   # <img src="imgs/edison.png">
    
-  # <img src="imgs/edson2.png" width="500" height="400">
+  # <img src="imgs/edson2.png" width="500" height="500">
    
   # <img src="imgs/edison3.png">
 
