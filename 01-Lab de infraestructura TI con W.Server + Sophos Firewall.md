@@ -49,7 +49,7 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.
   # <img src="imgs/edison3.png">
 
 
-Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
+Y tambien podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
 
 <img src="imgs/dns.png">
 
