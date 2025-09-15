@@ -29,9 +29,14 @@ Para la correcta configuración del DNS es necesario:<br>
 
 <img src="imgs/dns2.png">
 
-Una vez hecho esto, se debe unir el equipo cliente al dominio.<br>
+Una vez hecho esto, se debe unir el equipo cliente al dominio.
+<div>
+   <img src="imgs/cliente.png" height="400">
+   <img src="imgs/cliente.png" height="400">
+</div>
 
-<img src="imgs/cliente.png" height="400">
+
+Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido creado en el servidor usando la misma maquina o terminal. 
 
 Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
 
