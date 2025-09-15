@@ -46,7 +46,7 @@ Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido cre
 
 <div>
    <img src="imgs/edison.png">
-   <img src="imgs/edison2.png">
+   <img src="imgs/edson2.png">
    <img src="imgs/edison3.png">
 </div>
 
