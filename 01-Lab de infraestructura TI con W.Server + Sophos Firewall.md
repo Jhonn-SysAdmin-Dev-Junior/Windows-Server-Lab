@@ -40,7 +40,7 @@ Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido cre
 
 <div>
    <img src="imgs/nany.png">
-   <img src="imgs/nany.png">
+   <img src="imgs/nany2.png">
 </div>
 
 
