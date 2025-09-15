@@ -34,7 +34,7 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.
 <div>
    <img src="imgs/cliente.png" height="400">
    <img src="imgs/cliente2.png" height="400">
-</div>
+</div><br>
 
 ### Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido creado en el servidor usando la misma maquina o terminal. 
 
