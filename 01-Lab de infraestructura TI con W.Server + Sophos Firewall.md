@@ -42,11 +42,11 @@ Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido cre
     
    <img src="imgs/nany.png">
    
-   <img src="imgs/edison.png" width="400" height="400">
+   <img src="imgs/edison.png">
    
    <img src="imgs/edson2.png" width="400" height="400">
    
-   <img src="imgs/edison3.png" width="400" height="400">
+   <img src="imgs/edison3.png">
 
 
 Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
