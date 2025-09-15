@@ -39,15 +39,15 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.
 Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido creado en el servidor usando la misma maquina o terminal. 
 
 <div>
-   <img src="imgs/nany.png">
-   <img src="imgs/nany2.png">
+   <img src="imgs/nany.png" width="400" height="400">
+   <img src="imgs/nany2.png" width="400" height="400">
 </div>
 
 
 <div>
-   <img src="imgs/edison.png">
-   <img src="imgs/edson2.png">
-   <img src="imgs/edison3.png">
+   <img src="imgs/edison.png" width="400" height="400">
+   <img src="imgs/edson2.png" width="400" height="400">
+   <img src="imgs/edison3.png" width="400" height="400">
 </div>
 
 Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
