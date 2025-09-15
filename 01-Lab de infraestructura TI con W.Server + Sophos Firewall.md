@@ -30,13 +30,25 @@ Para la correcta configuración del DNS es necesario:<br>
 <img src="imgs/dns2.png">
 
 Una vez hecho esto, se debe unir el equipo cliente al dominio.
+
 <div>
    <img src="imgs/cliente.png" height="400">
-   <img src="imgs/cliente.png" height="400">
+   <img src="imgs/cliente2.png" height="400">
+</div>
+
+Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido creado en el servidor usando la misma maquina o terminal. 
+
+<div>
+   <img src="imgs/nany.png">
+   <img src="imgs/nany.png">
 </div>
 
 
-Y de esta manera podremos iniciar sesión en cualquier usuario que haya sido creado en el servidor usando la misma maquina o terminal. 
+<div>
+   <img src="imgs/edison.png">
+   <img src="imgs/edison2.png">
+   <img src="imgs/edison3.png">
+</div>
 
 Y ahora podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
 
