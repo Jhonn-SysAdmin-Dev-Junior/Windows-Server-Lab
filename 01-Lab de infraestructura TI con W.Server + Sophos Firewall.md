@@ -51,13 +51,15 @@ Una vez hecho esto, se debe unir el equipo cliente al dominio.
 
 Y tambien podemos comprobar que el servidor resuelve los nombres internos desde el equipo cliente con el comando nslookup + nombre del servidor.
 
-<img src="imgs/dns.png">
+# <img src="imgs/dns.png">
 
-DHCP: asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
+## DHCP:<br>
+Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
 
-<img src="imgs/dhcp.png">
+# <img src="imgs/dhcp.png">
 
-File Server: carpetas compartidas con permisos por departamento.
+File Server:<br>
+Almacenamiento centralizado de datos y archivos dentro de la red, permitiendo a los usuarios autorizados acceder, gestionar y compartir esa información de manera remota y eficiente.
 
 <img src="imgs/compartida_servidor.png">
 
