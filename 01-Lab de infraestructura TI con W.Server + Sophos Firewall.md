@@ -53,12 +53,12 @@ Y tambien podemos comprobar que el servidor resuelve los nombres internos desde 
 
 # <img src="imgs/dns.png">
 
-## DHCP:<br>
+### DHCP:<br>
 Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
 
 # <img src="imgs/dhcp.png">
 
-File Server:<br>
+### File Server:<br>
 Almacenamiento centralizado de datos y archivos dentro de la red, permitiendo a los usuarios autorizados acceder, gestionar y compartir esa información de manera remota y eficiente.
 
 <img src="imgs/compartida_servidor.png">
