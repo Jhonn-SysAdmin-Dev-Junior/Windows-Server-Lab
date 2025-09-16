@@ -58,15 +58,15 @@ Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.<b
 #### Para configuar DHCP en nuestro servidor debemos:<br>
    1.Instalar el rol DCHP
 
-   # <img src="imgs/dhcp1.pnng">
+   # <img src="imgs/dhcp1.png">
 
    2. Crear un ambito:
 
-   # <img src="imgs/dhcp2.pnng">
+   # <img src="imgs/dhcp2.png">
 
    3. Autorizar el servidor para que provea servicio DHCP; de lo contrario no funcionará:
 
-   # <img src="imgs/dhcp3.pnng">
+   # <img src="imgs/dhcp3.png">
 
 #### Prueba de asignación automatica desde una máquina cliente:
 
