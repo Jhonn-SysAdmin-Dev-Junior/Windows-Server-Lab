@@ -18,11 +18,8 @@ Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada pa
 
 ## Windows Server (10.10.10.2)
 
-Controlador de Dominio DNS: gestión centralizada de usuarios y equipos.
+Controlador de Dominio y DNS: gestión centralizada de usuarios y equipos.
 
-
-
-## DNS: 
 Para la correcta configuración del DNS es necesario:<br>
 1. instalar Active Directory Domain Services en el servidor.<br>
 
