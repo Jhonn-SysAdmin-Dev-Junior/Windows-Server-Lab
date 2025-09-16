@@ -70,7 +70,9 @@ Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.<b
 
    # <img src="imgs/dhcp3.png">
 
-#### Prueba de asignación automatica de IPs desde una máquina cliente:
+#### Prueba de asignación automatica de IPs desde una máquina cliente:<br>
+
+Podemos ver que recibe la IP dentro del rango que se ha establecido 100-200 y en este caso recibio la 100
 
 # <img src="imgs/dhcp.png">
 
