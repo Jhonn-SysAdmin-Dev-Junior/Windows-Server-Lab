@@ -64,11 +64,13 @@ Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.<b
 
    # <img src="imgs/dhcp2.png">
 
-   3. Autorizar el servidor para que provea servicio DHCP; de lo contrario no funcionará:
+   3. Autorizar el servidor para que provea servicio DHCP; de lo contrario no funcionará:<br>
+
+   En este caso yo ya le he dado a autorizar.
 
    # <img src="imgs/dhcp3.png">
 
-#### Prueba de asignación automatica desde una máquina cliente:
+#### Prueba de asignación automatica de IPs desde una máquina cliente:
 
 # <img src="imgs/dhcp.png">
 
