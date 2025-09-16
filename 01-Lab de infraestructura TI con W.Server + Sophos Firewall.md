@@ -54,7 +54,21 @@ Y tambien podemos comprobar que el servidor resuelve los nombres internos desde 
 # <img src="imgs/dns.png">
 
 ### DHCP:<br>
-Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.
+Asignación automática de IPs dentro del rango 10.10.10.100 – 10.10.10.200.<br>
+#### Para configuar DHCP en nuestro servidor debemos:<br>
+   1.Instalar el rol DCHP
+
+   # <img src="imgs/dhcp1.pnng">
+
+   2. Crear un ambito:
+
+   # <img src="imgs/dhcp2.pnng">
+
+   3. Autorizar el servidor para que provea servicio DHCP; de lo contrario no funcionará:
+
+   # <img src="imgs/dhcp3.pnng">
+
+#### Prueba de asignación automatica desde una máquina cliente:
 
 # <img src="imgs/dhcp.png">
 
