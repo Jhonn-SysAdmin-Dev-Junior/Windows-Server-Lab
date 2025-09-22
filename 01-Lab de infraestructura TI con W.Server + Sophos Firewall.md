@@ -88,9 +88,9 @@ Y tambien se configuro una GPO para que al iniciar sesión en cada usuario, la u
 
 ##🔹 Flujo de comunicación
 
-Los clientes reciben su configuración IP vía DHCP del Windows Server.
-El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
-Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve nombres internos y reenvía las externas a Internet.
-El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
-Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
+* Los clientes reciben su configuración IP vía DHCP del Windows Server.
+* El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
+* Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve nombres internos y reenvía las externas a Internet.
+* El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
+* Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
 
