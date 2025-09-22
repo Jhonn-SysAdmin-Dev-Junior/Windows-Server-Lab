@@ -82,11 +82,12 @@ Almacenamiento centralizado de datos y archivos dentro de la red, permitiendo a 
 <img src="imgs/compartida_servidor.png">
 
 Y tambien se configuro una GPO para que al iniciar sesión en cada usuario, la unidad de red para el servicio de archivos compartidos seimpre este disponible.
+
 <img src="imgs/COMPARTIDA_NANY.png">
 
 ---
 
-##🔹 Flujo de comunicación
+## 🔹 Flujo de comunicación
 
 * Los clientes reciben su configuración IP vía DHCP del Windows Server.
 * El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
