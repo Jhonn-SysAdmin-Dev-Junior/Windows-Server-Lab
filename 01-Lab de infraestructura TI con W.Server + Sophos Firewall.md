@@ -2,8 +2,6 @@
 
 La infraestructura que he implementado se compone de un servidor Windows Server 2019, un firewall virtualizado y varios clientes Windows, todos integrados en un dominio corporativo.
 
-
-
 ### 🔹 Componentes principales
 
 ## Firewall (10.10.10.1)
@@ -16,7 +14,15 @@ Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada pa
 
 <img src="imgs/sophoslan.png">
 
-## Windows Server (10.10.10.2)
+## Windows Server (10.10.10.2)<br>
+
+Usamos la IP del firewall como puerta de enlace.
+
+<img src="imgs/red.png">
+
+Y comprobamos que podemos acceder al firewall mediante ip, de esta manera se podra gestionar la red y el acceso a internet usando el firewall como puerta de enlace.
+
+<img src="imgs/red2.png">
 
 ### Controlador de Dominio y DNS para gestión centralizada de usuarios y equipos.
 
@@ -94,4 +100,6 @@ Y tambien se configuro una GPO para que al iniciar sesión en cada usuario, la u
 * Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve nombres internos y reenvía las externas a Internet.
 * El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
 * Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
+
+
 
