@@ -16,7 +16,7 @@ Interfaz LAN: red interna 10.10.10.0/24 (funciona como gateway predeterminada pa
 
 ## Windows Server (10.10.10.2)<br>
 
-Usamos la IP del firewall como puerta de enlace (es necesario configurarla tambien en los clientes), y usando el comando tracert podemos comproar que tenemos salida a internet a traves del firewall.
+Usamos la IP del firewall como puerta de enlace la cual es necesario configurarla tambien en los clientes para poder tener conexión a Internet a traves del firewall, y usando el comando tracert podemos comprobar que la conexión funciona correctamente.
 
 <img src="imgs/red.png">
 
