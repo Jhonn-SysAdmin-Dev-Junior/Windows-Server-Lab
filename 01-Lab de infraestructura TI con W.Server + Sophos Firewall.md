@@ -95,7 +95,7 @@ Y tambien se configuro una GPO para que al iniciar sesión en cada usuario, la u
 
 ---
 
-## 🔹 Flujo de comunicación
+## 🔹 Resumen del flujo de comunicación
 
 * Los clientes reciben su configuración IP vía DHCP del Windows Server.
 * El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
