@@ -20,7 +20,7 @@ Usamos la IP del firewall como puerta de enlace, y usando el comando tracert pod
 
 <img src="imgs/red.png">
 
-<img src="imgs/red2.png">
+<img src="imgs/tracert.png">
 
 Y comprobamos que podemos acceder al firewall mediante ip, de esta manera se podra gestionar la red y el acceso a internet usando el firewall como puerta de enlace.
 
