@@ -81,55 +81,16 @@ Almacenamiento centralizado de datos y archivos dentro de la red, permitiendo a 
 
 <img src="imgs/compartida_servidor.png">
 
+Y tambien se configuro una GPO para que al iniciar sesión en cada usuario, la unidad de red para el servicio de archivos compartidos seimpre este disponible.
 <img src="imgs/COMPARTIDA_NANY.png">
-
-Clientes Windows (10.10.10.101, 10.10.10.102, …)
-
-<img src="imgs/sophoswan.png">
-
-Se unen al dominio corporativo.
-
-<img src="imgs/sophoswan.png">
-
-Obtienen su configuración (IP, Gateway, DNS) desde el servidor DHCP.
-
-<img src="imgs/sophoswan.png">
-
-Acceden a recursos de red (carpetas compartidas, impresoras, políticas de grupo).
-
-<img src="imgs/sophoswan.png">
-
-Internet
-
-Acceso disponible para todos los clientes a través del firewall.
 
 ---
 
 ##🔹 Flujo de comunicación
 
 Los clientes reciben su configuración IP vía DHCP del Windows Server.
-<img src="imgs/sophoswan.png">
 El gateway predeterminado (10.10.10.1) apunta al firewall, que se encarga de enrutar y aplicar políticas.
-<img src="imgs/sophoswan.png">
 Las consultas de nombres se envían al DNS del Server (10.10.10.2), que resuelve nombres internos y reenvía las externas a Internet.
-<img src="imgs/sophoswan.png">
 El firewall hace NAT y permite la salida a Internet de los clientes y del servidor.
-<img src="imgs/sophoswan.png">
 Los usuarios acceden a recursos compartidos (ej: \\Servidor\Marketing) y a servicios del dominio.
-<img src="imgs/sophoswan.png">
----
 
-##🔹 Diagrama de Red
-   
-
-##✅ Estado actual del laboratorio
-
-Dominio corporativo en funcionamiento.
-
-DHCP y DNS configurados.
-
-Clientes unidos al dominio.
-
-Carpetas compartidas con permisos por UO.
-
-Acceso a Internet desde los clientes mediante firewall.
